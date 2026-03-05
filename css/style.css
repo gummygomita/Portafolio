@@ -359,15 +359,14 @@ ul.dropdown-menu.show
     border-radius: 30px;
 }
 
-.videom video
-{
-    width: 100%;
-    height: 100%;
-}
-
 .jardin
 {
     padding-top: 20px;
+}
+
+.videoJardin
+{
+    margin-top: 20px;
 }
 
 .michi 
@@ -427,6 +426,16 @@ model-viewer {
 {
     border-bottom-right-radius: 30px;
     height: 100%;
+}
+
+.videom{
+  aspect-ratio: 16 / 9;
+}
+
+.videom img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*contacto*/
